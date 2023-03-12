@@ -528,17 +528,19 @@ h6 {
     margin-right: 0;
 }
 
+.button-div :focus {
+    color: var(--titli-list--color);
+    background-color: var(--accent-colot-too);
+
+}
+
 .button-div :hover {
     color: var(--titli-list--color);
     background-color: var(--accent-colot-too);
 
 }
 
-.button-div :focus {
-    color: var(--titli-list--color);
-    background-color: var(--accent-colot-too);
 
-}
 
 .btn-list {
     font-family: Roboto, sans-serif;
