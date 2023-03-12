@@ -5,7 +5,7 @@
     --accent-colot-too: #404BBF;
     --titli-list--color: #FFFFFF;
     --accent-list-color: #F4F4FD;
-    --accent-list-colot-too: #E7E9FC;
+    --accent-list-color-too: #E7E9FC;
 }
 
 
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-    mmargin: 0;
+    margin: 0;
     padding: 0;
 
 }
@@ -49,7 +49,10 @@ h6 {
 .ul {
     margin: 0;
     padding: 0;
+}
 
+.p {
+    margin: 0;
 }
 
 
@@ -215,17 +218,21 @@ h6 {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    align-self: start;
+
+
+
 }
 
 
 .hirol-title {
-
+    width: 496px;
     color: var(--titli-list--color);
     font-size: 56px;
     line-height: 1.1;
     margin-top: 0;
-
-
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -338,17 +345,25 @@ h6 {
 
 
 
-.img {
+.work {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 
+.imgg-foto {
+    margin-right: 24px;
+}
 
 
-
-.container-foto:nth-child(3n) {
+.imgg-foto:nth-child(3n) {
     margin-right: o;
+}
+
+
+.img {
+    display: block;
 }
 
 /* -------section 1-------- */
@@ -382,7 +397,7 @@ h6 {
     line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0;
-
+    margin-bottom: 72px;
 }
 
 
@@ -390,9 +405,6 @@ h6 {
 
 /* foto-section-2 */
 
-.section-title {
-    padding-bottom: 72px;
-}
 
 .imgg {
     display: flex;
@@ -401,6 +413,7 @@ h6 {
 .page {
 
     margin-right: 24px;
+    padding-bottom: 32px;
     background-color: var(--titli-list--color);
 }
 
@@ -412,13 +425,17 @@ h6 {
     color: var(--titli-list--color);
 }
 
+.info {
+    margin-top: 32px;
+
+
+}
 
 .img-subject {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -432,7 +449,8 @@ h6 {
     line-height: 1.5;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
+
 
 }
 
@@ -462,11 +480,12 @@ h6 {
 
 
 .footer-text {
-    color: var(--accent-list-colot-too);
+    color: var(--accent-list-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     width: 264px;
+    margin-bottom: 0;
 }
 
 
@@ -476,9 +495,17 @@ h6 {
 
 /* --------------------------   PARTFOLIO  --------------------------*/
 
+.header,
+.part {
+    border-bottom: 1px solid var(--accent-list-color-too);
+}
+
 .partfolio {
     padding-top: 96px;
     padding-bottom: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* кнопки */
@@ -534,13 +561,26 @@ h6 {
 
 /* секція списку */
 
-.container-img {
-    display: flex;
-    flex-wrap: wrap;
+.text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 162px;
+    border-left: 1px solid var(--accent-list-color-too);
+    border-right: 1px solid var(--accent-list-color-too);
+    border-bottom: 1px solid var(--accent-list-color-too);
 }
 
-.foto-img {
+.items {
+    flex-wrap: wrap;
+    display: flex;
+}
 
+
+
+.foto-img {
+    font-size: 0;
+    display: block;
     width: 360px;
     margin-right: 24px;
     margin-bottom: 48px;
@@ -555,9 +595,9 @@ h6 {
 }
 
 .section-heading {
-    margin-top: 32px;
+    color: var(--praymery-text-color);
+    width: 360px;
     margin-bottom: 8px;
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -568,7 +608,7 @@ h6 {
 
 .section-text {
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 0;
     color: var(--titli-text-color);
     font-weight: 400;
     font-size: 16px;
