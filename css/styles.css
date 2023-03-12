@@ -411,7 +411,7 @@ h6 {
 }
 
 .page {
-
+    font-size: 0;
     margin-right: 24px;
     padding-bottom: 32px;
     background-color: var(--titli-list--color);
@@ -422,10 +422,12 @@ h6 {
 }
 
 .img-foto {
+
     color: var(--titli-list--color);
 }
 
 .info {
+
     margin-top: 32px;
 
 
@@ -572,6 +574,7 @@ h6 {
 }
 
 .items {
+    font-size: 0;
     flex-wrap: wrap;
     display: flex;
 }
@@ -579,7 +582,7 @@ h6 {
 
 
 .foto-img {
-    font-size: 0;
+
     display: block;
     width: 360px;
     margin-right: 24px;
