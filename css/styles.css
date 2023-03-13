@@ -316,7 +316,14 @@ h6 {
     overflow: hidden;
 }
 
+.container>.principes-subject {
+    font-family: 500;
+}
+
 .principes-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 8px;
 
@@ -326,14 +333,16 @@ h6 {
 .principes-description {
 
     width: 264px;
+    margin-top: 0;
+    margin-bottom: 0;
 
     color: var(--titli-text-color);
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     order: 1;
-    margin-top: 0;
-    margin-bottom: 0;
+
 }
 
 
@@ -371,13 +380,15 @@ h6 {
 
 
 .section-subject {
+    margin-top: 0;
+    margin-bottom: 72px;
+
     font-size: 36px;
     line-height: 1.1;
-    padding-bottom: 72px;
+
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
 }
+
 
 
 
@@ -413,7 +424,6 @@ h6 {
 .page {
     font-size: 0;
     margin-right: 24px;
-    padding-bottom: 32px;
     background-color: var(--titli-list--color);
 }
 
@@ -428,7 +438,8 @@ h6 {
 
 .info {
 
-    margin-top: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 
 
 }
@@ -566,10 +577,13 @@ h6 {
 /* секція списку */
 
 .text {
+
+
+
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    padding-right: 162px;
+    padding-right: 16px;
     border-left: 1px solid var(--accent-list-color-too);
     border-right: 1px solid var(--accent-list-color-too);
     border-bottom: 1px solid var(--accent-list-color-too);
@@ -601,7 +615,9 @@ h6 {
 
 .section-heading {
     color: var(--praymery-text-color);
-    width: 360px;
+
+    width: 290px;
+
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
